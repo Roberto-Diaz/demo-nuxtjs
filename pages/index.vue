@@ -1,5 +1,7 @@
 <template>
-  <h1>Welcome to my nuxt demo</h1>
+  <div>
+    <h1>Welcome to my nuxt demo</h1>
+  </div>
 </template>
 
 <script>
@@ -7,7 +9,7 @@ export default {
   head () {
     return {
       title: 'Welcome | nuxt app',
-      meta: [{ 
+      meta: [{
         hid: 'description',
         name: 'description',
         content: 'Website about demo nuxt'
