@@ -1,6 +1,6 @@
 <template>
   <div>
-    <h1>Welcome to my nuxt demo</h1>
+    <h1>About</h1>
   </div>
 </template>
 
@@ -8,7 +8,7 @@
 export default {
   head () {
     return {
-      title: 'Welcome | nuxt app',
+      title: 'About | nuxt app',
       meta: [{
         hid: 'description',
         name: 'description',
